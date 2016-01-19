@@ -161,3 +161,17 @@ label{
 	display: block;
 	margin-top: 20px;
 }
+
+#annoucement{
+	background-image: url("../img/annoucement_bg.jpg");
+	text-align: center;
+	font-size: 40px;
+	margin: 20px;
+	padding: 20px;
+	text-decoration: bold;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
