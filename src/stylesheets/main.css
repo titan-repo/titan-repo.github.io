@@ -68,6 +68,19 @@ body{
 	box-shadow: 7px 7px 10px 0px #222222;
 }
 
+#contact-container{
+	background-color: #61A6BF;
+	background-image: url("../img/stone_tile.jpg");
+    background-repeat: repeat;
+	color: #FFFFFF;
+	font-family: 'Roboto', serif;
+	font-size: 20px;
+	padding: 20px;
+	margin: 20px;
+	margin-bottom: 5px;
+	box-shadow: 7px 7px 10px 0px #222222;
+}
+
 ul{
 	list-style-type: square;
 	margin-left: 10px;
@@ -142,4 +155,9 @@ span.under{
 
 a{
 	color: #FFFFFF;
+}
+
+label{
+	display: block;
+	margin-top: 20px;
 }
