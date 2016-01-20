@@ -6,11 +6,6 @@ body{
 
 }
 
-@font-face {
-font-family: 'drafting';
-src: url('Drafting.ttf');
-}
-
 #header{
 	background-color: #61A6BF;
 	background-image: url("../img/stone_tile.jpg");
@@ -168,10 +163,9 @@ label{
 }
 
 #annoucement{
-	background-color: #111111;
-	font-family: 'drafting';
+	background-image: url("../img/annoucement_bg.jpg");
 	text-align: center;
-	font-size: 60px;
+	font-size: 40px;
 	margin: 20px;
 	padding: 20px;
 	text-decoration: bold;
