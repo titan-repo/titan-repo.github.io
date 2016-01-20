@@ -2,8 +2,13 @@ body{
 	background-color: #203740;
 	background-image: url("../img/dirt_tile.jpg");
     background-repeat: repeat;
-	
-	
+
+
+}
+
+@font-face {
+font-family: 'drafting';
+src: url('Drafting.ttf');
 }
 
 #header{
@@ -21,12 +26,12 @@ body{
 }
 
 #navBar{
-	
+
 	text-align: center;
 	width: auto;
 	margin: auto;
 	margin-top: 20px;
-	
+
 }
 
 #navBar a{
@@ -46,7 +51,7 @@ body{
 	background-color: #75C7E5;
 	background-image: url("../img/stone_tile_hover.jpg");
     background-repeat: repeat;
-	
+
 }
 
 #navBar a.active{
@@ -97,7 +102,7 @@ h2{
 	font-family: 'Roboto', serif;
 	font-size: 10px;
 	margin: 0p;
-	
+
 }
 
 #htp-container{
@@ -163,9 +168,10 @@ label{
 }
 
 #annoucement{
-	background-image: url("../img/annoucement_bg.jpg");
+	background-color: #111111;
+	font-family: 'drafting';
 	text-align: center;
-	font-size: 40px;
+	font-size: 60px;
 	margin: 20px;
 	padding: 20px;
 	text-decoration: bold;
