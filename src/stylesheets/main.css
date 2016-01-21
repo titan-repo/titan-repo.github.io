@@ -145,6 +145,10 @@ span.under{
 	text-decoration: underline;
 }
 
+span.small{
+	font-size: 20px;
+}
+
 #nobeggy{
 	background-color: #000000;
 	margin: auto;
@@ -175,4 +179,5 @@ label{
     -1px 1px 0 #000,
     1px 1px 0 #000;
 	box-shadow: 7px 7px 10px 0px #222222;
+	line-height: 0.7;
 }
