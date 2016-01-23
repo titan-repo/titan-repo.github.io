@@ -126,6 +126,20 @@ h2{
 	box-shadow: 7px 7px 10px 0px #222222;
 }
 
+#donation-container{
+	background-color: #61A6BF;
+	background-image: url("../img/stone_tile.jpg");
+    background-repeat: repeat;
+	color: #FFFFFF;
+	font-family: 'Roboto', serif;
+	font-size: 20px;
+	padding: 20px;
+	margin: 20px;
+	margin-bottom: 5px;
+	box-shadow: 7px 7px 10px 0px #222222;
+	text-align: center;
+}
+
 span.red{
 	color: #FF0000;
 }
@@ -164,6 +178,23 @@ a{
 label{
 	display: block;
 	margin-top: 20px;
+}
+table{
+	display: inline-block;
+	margin: 20px 0px 20px 0px;
+}
+
+table, th, td, tr{
+	border: 2px solid #FFFFFF;
+	text-align : center;
+}
+
+td, th{
+	padding: 10px;
+}
+
+th{
+	font-size: 25px;
 }
 
 #annoucement{
