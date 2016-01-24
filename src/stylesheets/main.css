@@ -191,7 +191,10 @@ table, th, td, tr{
 
 td, th{
 	padding: 10px;
+	font-weight: bold;
+	vertical-align: middle;
 }
+
 
 th{
 	font-size: 25px;
