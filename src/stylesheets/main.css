@@ -1,21 +1,25 @@
 body{
+	@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600);
 	background-color: #203740;
 	background-image: url("../img/b5.jpg");
-    background-repeat: repeat;
-
+	font-weight: light;
+	text-shadow: none !important;
 
 }
-
+.blur{
+    opacity: 1;
+    filter: blur(0.5px);
+    -webkit-filter: blur(0.3px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='svgMask'><feGaussianBlur stdDeviation='10' /></filter></svg>#svgMask");
+}
 #header{
-	background-color: #61A6BF;
-	background-image: url("../img/stone_tile.jpg");
-    background-repeat: repeat;
-	text-align: center;
-	padding: 10px;
 	margin: auto;
-	font-family: 'Roboto', serif;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
     font-size: 38px;
-	box-shadow: 0px 7px 10px 0px #222222;
 	color: #FFFFFF;
 	font-weight: bold;
 }
@@ -33,7 +37,7 @@ body{
 	background-color: #61A6BF;
 	background-image: url("../img/stone_tile.jpg");
     background-repeat: repeat;
-	font-family: 'Roboto', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 30px;
 	color: #FFFFFF;
 	text-decoration: none;
@@ -57,28 +61,26 @@ body{
 
 #rules-container{
 	background-color: #61A6BF;
-	background-image: url("../img/stone_tile.jpg");
+	background-image: url("../img/stone_tile_active.jpg");
     background-repeat: repeat;
 	color: #FFFFFF;
-	font-family: 'Roboto', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	padding: 20px;
 	margin: 20px;
 	margin-bottom: 5px;
-	box-shadow: 7px 7px 10px 0px #222222;
 }
 
 #contact-container{
 	background-color: #61A6BF;
-	background-image: url("../img/stone_tile.jpg");
+	background-image: url("../img/stone_tile_active.jpg");
     background-repeat: repeat;
 	color: #FFFFFF;
-	font-family: 'Roboto', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	padding: 20px;
 	margin: 20px;
 	margin-bottom: 5px;
-	box-shadow: 7px 7px 10px 0px #222222;
 }
 
 ul{
@@ -94,7 +96,7 @@ h2{
 #footer{
 	text-align: center;
 	color: #FFFFFF;
-	font-family: 'Roboto', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 10px;
 	margin: 0p;
 
@@ -102,58 +104,63 @@ h2{
 
 #htp-container{
 	background-color: #61A6BF;
-	background-image: url("../img/stone_tile.jpg");
+	background-image: url("../img/stone_tile_active.jpg");
     background-repeat: repeat;
 	color: #FFFFFF;
-	font-family: 'Roboto', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	padding: 20px;
 	margin: 20px;
 	margin-bottom: 5px;
-	box-shadow: 7px 7px 10px 0px #222222;
 }
 
 #staff-container{
 	background-color: #61A6BF;
-	background-image: url("../img/stone_tile.jpg");
+	background-image: url("../img/stone_tile_active.jpg");
     background-repeat: repeat;
 	color: #FFFFFF;
-	font-family: 'Roboto', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	padding: 20px;
 	margin: 20px;
 	margin-bottom: 5px;
-	box-shadow: 7px 7px 10px 0px #222222;
 }
 
 #donation-container{
 	background-color: #61A6BF;
-	background-image: url("../img/stone_tile.jpg");
+	background-image: url("../img/stone_tile_active.jpg");
     background-repeat: repeat;
 	color: #FFFFFF;
-	font-family: 'Roboto', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	padding: 20px;
 	margin: 20px;
 	margin-bottom: 5px;
-	box-shadow: 7px 7px 10px 0px #222222;
 	text-align: center;
 }
-
+span.bold{
+	font-weight: bold;
+}
 span.red{
-	color: #FF0000;
+	color: red;
+}
+span.light_red{
+	color: #FF6666;
+}
+span.light_blue{
+	color: #07DCEE;
 }
 
 span.blue{
-	color: #0000FF;
+	color: blue;
 }
 
 span.black{
-	color: #000000;
+	color: black;
 }
 
 span.green{
-	color:#00FF00;
+	color: green;
 }
 span.under{
 	text-decoration: underline;
@@ -162,13 +169,17 @@ span.under{
 span.small{
 	font-size: 20px;
 }
+span.pink{
+	color: #FFC0CB;
+}
 
 #nobeggy{
-	background-color: #000000;
-	margin: auto;
-	color: #FF0000;
-	padding: 10px;
+	color: white;
+	background-image: url("../img/annoucement_bg.jpeg");
 	text-align: center;
+	margin: auto;
+	padding: 10px;
+	line-height: 0.7;
 }
 
 a{
@@ -201,17 +212,11 @@ th{
 }
 
 #annoucement{
-	background-image: url("../img/annoucement_bg.jpg");
+	background-image: url("../img/annoucement_bg.jpeg");
 	text-align: center;
 	font-size: 40px;
 	margin: 20px;
 	padding: 20px;
 	text-decoration: bold;
-	text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-	box-shadow: 7px 7px 10px 0px #222222;
 	line-height: 0.7;
 }
