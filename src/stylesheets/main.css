@@ -176,10 +176,16 @@ span.pink{
 #nobeggy{
 	color: white;
 	background-image: url("../img/annoucement_bg.jpeg");
+	background-size: cover;
 	text-align: center;
 	margin: auto;
 	padding: 10px;
 	line-height: 0.7;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 a{
@@ -213,10 +219,16 @@ th{
 
 #annoucement{
 	background-image: url("../img/annoucement_bg.jpeg");
+	background-size: cover;
 	text-align: center;
 	font-size: 40px;
 	margin: 20px;
 	padding: 20px;
 	text-decoration: bold;
 	line-height: 0.7;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
